@@ -22,10 +22,10 @@ Her er systemet i aktion under en simuleret scanning. Læg mærke til, hvordan v
 ### 1. Det aktive SOC Dashboard i terminalen
 <img width="607" height="221" alt="detecterv1" src="https://github.com/user-attachments/assets/f875092f-3672-4a9f-8363-11155b5c0dfe" />
 
-### 2. cph_security_v1.json (Spam-loggen fra v1)
+### 2. cph_soc_monitor.py - Dashboard til v1 (pumper dublerede alarmer ud)
 <img width="797" height="270" alt="cph_soc_monitorv1" src="https://github.com/user-attachments/assets/419d13fb-f4e7-4401-9078-52668147b8f9" />
 
-### 3. cph_security_v2.json (Den rene, professionelle v2-log)
+### 3. cph_soc_monitor_v2.py - Dashboard til v2 (isolerer unikke trusler og fjerner støj)
 <img width="809" height="290" alt="cph_soc_monitorv2" src="https://github.com/user-attachments/assets/1daabaef-45ac-4e7f-9879-d364420a546f" />
 
 
