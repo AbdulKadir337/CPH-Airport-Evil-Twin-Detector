@@ -13,6 +13,22 @@ Projektet er opdelt i tre filer for at vise min udvikling i koden:
 *   **`cph_soc_monitor_v2.py` (Det færdige produkt)**: Min optimerede version, hvor jeg fiksede to store problemer:
     1. **Støjreduktion (State Management)**: I v1 kørte loggen i ring og spammerede logfilen hvert 5. sekund. I v2 bruger jeg et Python `set` til at huske hackerens MAC-adresse. Den advarer på skærmen live, men logger kun hackeren ÉN gang.
     2. **Defensiv kodning**: Tilføjet `try/except` og datavalidering, så scriptet ikke crasher, hvis det modtager korrupte eller uventede netværkspakker i luften.
+ 
+
+## 🖥️ Live SOC Dashboard & Logs (Screenshots)
+
+Her er systemet i aktion under en simuleret scanning. Læg mærke til, hvordan v2 holder styr på de unikke trusler og stopper log-spamming:
+
+### 1. Det aktive SOC Dashboard i terminalen
+<img width="607" height="221" alt="detecterv1" src="https://github.com/user-attachments/assets/f875092f-3672-4a9f-8363-11155b5c0dfe" />
+
+### 2. cph_security_v1.json (Spam-loggen fra v1)
+<img width="797" height="270" alt="cph_soc_monitorv1" src="https://github.com/user-attachments/assets/419d13fb-f4e7-4401-9078-52668147b8f9" />
+
+### 3. cph_security_v2.json (Den rene, professionelle v2-log)
+<img width="809" height="290" alt="cph_soc_monitorv2" src="https://github.com/user-attachments/assets/1daabaef-45ac-4e7f-9879-d364420a546f" />
+
+
 
 ## 📊 Eksempel på SIEM JSON-Log
 Hver unik alarm gemmes i en ren JSON-linje med tidsstempel, trusselsniveau og hackerens rå data:
