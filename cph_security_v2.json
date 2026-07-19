@@ -1,0 +1,2 @@
+{"timestamp": "2026-07-19T01:04:05.566320", "facility": "CPH_AIRPORT_WIFI_MONITOR", "severity": "CRITICAL", "incident": "UNENCRYPTED_EVIL_TWIN", "details": {"target_ssid": "CPH Free Wi-Fi", "rogue_bssid": "AA:BB:CC:DD:EE:FF", "observed_security": "--"}}
+{"timestamp": "2026-07-19T01:25:41.014473", "facility": "CPH_AIRPORT_WIFI_MONITOR", "severity": "CRITICAL", "incident": "UNENCRYPTED_EVIL_TWIN", "details": {"target_ssid": "CPH Airport Free Wi-Fi", "rogue_bssid": "AA:BB:CC:DD:EE:FF", "observed_security": "--"}}
