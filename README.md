@@ -34,6 +34,7 @@ Hver unik alarm gemmes i en ren JSON-linje med tidsstempel, trusselsniveau og ha
 `{"timestamp": "2026-07-19T01:00:20", "facility": "CPH_MONITOR", "severity": "CRITICAL", "incident": "UNENCRYPTED_EVIL_TWIN", "details": {"target_ssid": "CPH Airport Free Wi-Fi", "rogue_bssid": "AA:BB:CC:DD:EE:FF", "observed_security": "--"}}`
 
 
+
 🎯 Formål og anvendelse
 
 Dette projekt er lavet som et praktisk læringsværktøj til mit studie som IT-teknolog.
@@ -48,6 +49,7 @@ Det viser:
 Projektet er ikke et professionelt sikkerhedsprodukt, men et studieprojekt der viser min interesse for netværkssikkerhed og praktisk Python-automatisering.
 
 
+
 📁 Projektstruktur
 
 CPH-Airport-Evil-Twin-Detector/
@@ -58,6 +60,8 @@ CPH-Airport-Evil-Twin-Detector/
 ├── mockwifi.py
 └── README.md
 
+
+
 🔧 Fremtidige forbedringer
 
 Hvis jeg vælger at arbejde videre på projektet, kunne jeg tilføje:
@@ -67,6 +71,7 @@ Hvis jeg vælger at arbejde videre på projektet, kunne jeg tilføje:
 - Farvekoder i dashboardet
 - En simpel web-visning af alarmer
 - Mulighed for at gemme logs i en separat fil pr. scanning
+
 
 
 👤 Om mig
