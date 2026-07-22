@@ -35,6 +35,7 @@ Hver unik alarm gemmes i en ren JSON-linje med tidsstempel, trusselsniveau og ha
 
 
 🎯 Formål og anvendelse
+
 Dette projekt er lavet som et praktisk læringsværktøj til mit studie som IT-teknolog.
 
 Det viser:
@@ -48,6 +49,7 @@ Projektet er ikke et professionelt sikkerhedsprodukt, men et studieprojekt der v
 
 
 📁 Projektstruktur
+
 CPH-Airport-Evil-Twin-Detector/
 │
 ├── detecterv1.py
@@ -57,6 +59,7 @@ CPH-Airport-Evil-Twin-Detector/
 └── README.md
 
 🔧 Fremtidige forbedringer
+
 Hvis jeg vælger at arbejde videre på projektet, kunne jeg tilføje:
 
 - Whitelist/blacklist af MAC-adresser
@@ -67,6 +70,7 @@ Hvis jeg vælger at arbejde videre på projektet, kunne jeg tilføje:
 
 
 👤 Om mig
+
 Jeg studerer IT-teknolog og arbejder med Python, Linux, netværk og små sikkerhedsprojekter.
 Dette projekt er lavet for at vise min tilgang til praktisk problemløsning og min interesse for IT-sikkerhed.
 
